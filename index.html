@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="./public/styles/main.css">
+    <link rel="stylesheet" href="./public/styles/landingPage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3c2b6ba108.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Pomodoro</h1>
+    </header>
+    <main>
+        <div class="settings">
+            <div id="work" class="config">
+                <div class="icons-container">
+                    <i class="fas fa-arrow-circle-up arrow up"></i>
+                    <i class="fas fa-arrow-circle-down arrow down"></i>
+                </div>
+                <div class="align-center">
+                    <input type="number" name="workTime" class="show-config" value="25" min="1" max="60" disabled>
+                    <p>Trabalho</p>
+                </div>
+            </div>
+
+            <div id="break" class="config">
+                <div class="icons-container">
+                    <i class="fas fa-arrow-circle-up arrow up"></i>
+                    <i class="fas fa-arrow-circle-down arrow down"></i>
+                </div>
+                <div class="align-center">
+                    <input type="number" name="breakTime" class="show-config" value="5" min="1" max="60" disabled>
+                    <p>Pausa</p>
+                </div>
+            </div>
+
+            <div id="sessions" class="config">
+                <div class="icons-container">
+                    <i class="fas fa-arrow-circle-up arrow up"></i>
+                    <i class="fas fa-arrow-circle-down arrow down"></i>
+                </div>
+                <div class="align-center">
+                    <input type="number" name="quantitySessions" class="show-config" value="3" min="1" max="60"
+                        disabled>
+                    <p>Sessões</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <button class="default">Continuar</button>
+    </footer>
+
+    <script src="./public/scripts/script.js"></script>
+</body>
+
+</html>

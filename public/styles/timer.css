@@ -1,0 +1,122 @@
+header {
+    max-width: 1150px;
+    justify-content: space-between;
+}
+
+.menu-button {
+    height: 50%;
+    width: 13%;
+
+    font-size: 2.5rem;
+}
+
+main {  
+    height: 55%;
+    max-width: 1150px;
+
+    align-items: center;
+
+    margin-top: 7rem;
+}
+
+div.timer-container {
+    height: 95%;
+    width: 28%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--color-background-containers);
+    box-shadow: 0px 0px 5px 1px #1a1f3318;
+    border-radius: 50%;
+}
+
+h4.current-time {
+    font-size: 7rem;
+}
+
+div.current-type {
+    height: 70%;
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h4.timer-type {
+    font-size: 5rem;
+}
+
+.work {
+    color: #219653;
+}
+
+.pause {
+    color: #f2c94c;
+}
+
+div.current-style-type {
+    width: 25%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+i.circle {
+    font-size: 1.8rem;
+    color: #5b6289;
+    cursor: default;
+}
+
+.play-button {
+    height: 32%;
+    width: 28%;
+}
+
+.end-alert {
+    height: 25%;
+    width: 33%;
+    
+    padding: 0 1rem;
+   
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+
+    border-radius: 15px;
+    box-shadow: 0px 0px 1rem #00000082;
+    background: #526dff;
+    font-size: 2rem;
+
+    animation-duration: .4s;
+    animation-name: bounceIn;
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+  
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.end-alert button {
+    height: 30%;
+    padding: 0px .5rem;
+}
+
+.outshine {
+    opacity: 0.3;
+}
