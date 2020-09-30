@@ -1,3 +1,5 @@
+## Para visualizar o site: https://godinhojoao.github.io/pomodoro/
+
 # Sobre o site
 - A ideia para criar este site é de um desafio de um repositório no github, link do repositório: https://github.com/devchallenge-io/pomodoro
 - O site é basicamente um cronômetro que utiliza a técnica do pomodoro para ajudar na gestão de tempo.
