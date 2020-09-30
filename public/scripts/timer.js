@@ -81,7 +81,7 @@
                     let divCurrentType = document.querySelector('.current-type');
 
                     div.classList.add('end-alert');
-                    div.innerText = 'Todas as sessões foram concluídas, retorne à página inicial caso deseje configurar novas sessões.';
+                    div.innerText = `Todas as ${sessionsQuantity} sessões foram concluídas, parabéns! Retorne à página inicial caso deseje configurar novas sessões.`;
                     button.innerText = 'Início';
                     button.classList.add('default');
                     button.addEventListener('click', returnToHomePage);

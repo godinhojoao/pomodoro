@@ -3,8 +3,12 @@ header {
     max-width: 980px;
 }
 
+header h1 {
+    margin-left: 2rem;
+}
+
 main {
-    height: 35%;
+    height: 40%;
     max-width: 980px;
 
     align-items: flex-end;
@@ -91,7 +95,7 @@ input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
 
-div.config p {
+div.align-center p {
     font-size: 2rem;
 }
 
@@ -112,4 +116,35 @@ footer {
     width: 25%;
 
     margin-left: 3rem;
+}
+
+@media (max-width: 700px) {
+
+    header {
+        height: 15%;
+    }
+
+    main {
+        height: 57%;
+    }
+
+    div.settings {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    div.config {
+        max-width: 210px;
+        max-height: 135px;
+    }   
+    
+    footer {
+        height: 20%;
+    }
+
+    .default {
+        height: 43%;
+        width: 250px;
+    }
 }
