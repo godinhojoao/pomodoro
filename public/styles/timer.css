@@ -115,11 +115,19 @@ i.circle {
 
 .end-alert button {
     height: 30%;
+
     padding: 0 .5rem;
+    margin-left: 1rem;
 }
 
 .outshine {
     opacity: 0.3;
+}
+
+@media (max-width: 850px) {
+    .end-alert {
+        width: 60%;
+    }
 }
 
 @media (max-width: 750px) {
@@ -154,7 +162,6 @@ i.circle {
     div.current-type {
         height: 50%;
     }
-
 }
 
 @media (max-width: 500px) {
@@ -166,6 +173,10 @@ i.circle {
         height: 270px;
         width: 270px;
     }   
+
+    .end-alert {
+        width: 85%;
+    }
 } 
 
 @media (max-width: 360px) {

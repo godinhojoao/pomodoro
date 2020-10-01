@@ -15,7 +15,7 @@
             return parseInt(input.value);
         };
 
-        window.location = `/public/views/timer.html?work=${workValue}&break=${breakValue}&sessions=${sessionsValue}`;
+        window.location.href = `${window.location.pathname}public/views/timer.html?work=${workValue}&break=${breakValue}&sessions=${sessionsValue}`;
     };
 
     function validatingValue(value) {

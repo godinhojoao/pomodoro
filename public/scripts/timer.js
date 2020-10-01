@@ -35,7 +35,7 @@
     menuButton.addEventListener('click', returnToHomePage);
 
     function returnToHomePage() {
-        window.location = '/index.html';
+        window.location = '/';
     };
 
     circleIcons[0].style.color = '#219653';
