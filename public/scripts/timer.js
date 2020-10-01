@@ -35,7 +35,7 @@
     menuButton.addEventListener('click', returnToHomePage);
 
     function returnToHomePage() {
-        window.location.href = `/pomodoro/`;
+        window.location.href = `/pomodoro`;
     };
 
     circleIcons[0].style.color = '#219653';
